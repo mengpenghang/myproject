@@ -19,3 +19,9 @@ git remote rm origin (删除远程关联)
 git add . 添加上传项
 git commit -m "内容说明"
 git push -u origin master 提交到远程服务器上
+
+failed to push some refs to "url"
+https://jingyan.baidu.com/article/f3e34a12a25bc8f5ea65354a.html
+
+Git 克隆错误‘RPC failed; curl 56 Recv failure....’ 及克隆速度慢问题解决
+https://blog.csdn.net/qq_34121797/article/details/79561110
