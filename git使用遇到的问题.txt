@@ -1,0 +1,21 @@
+
+git push github失败，提示：SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443？
+将控制面板对应的 管理凭证清空
+
+解决办法：
+将控制面板对应的 管理凭证清空
+
+1、使用web页面访问一下git仓库。
+ 
+2、使用 git config --global --unset http.proxy。
+ 
+3、再次提交输入账号密码后就行了。
+
+
+
+git init 初始化
+git remote add origin https://github.com:tianqixin/runoob-git-test.git git与github远程关联
+git remote rm origin (删除远程关联)
+git add . 添加上传项
+git commit -m "内容说明"
+git push -u origin master 提交到远程服务器上
