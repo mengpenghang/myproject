@@ -1,0 +1,11 @@
+
+搭建java环境
+https://jingyan.baidu.com/article/db55b609fa946e4ba20a2f56.html
+
+
+idea官网
+https://www.jetbrains.com/idea/uninstall/?edition=IU-2018.3.5
+配置maven环境
+https://www.cnblogs.com/xihehua/p/9639045.html
+svn的安装及使用
+http://xinzhi.wenda.so.com/a/1517899588203200

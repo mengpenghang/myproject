@@ -1,0 +1,42 @@
+
+查看日志
+tailf apache-tomcat-8.5.39/logs/catalina.out
+启动tomcat
+apache-tomcat-8.5.39/bin/startup.sh
+关闭tomcat
+./startup.sh
+登录mysql
+mysql -uroot -p root
+查看数据酷
+show databases;
+使用数据酷
+use database;
+查看表
+show tables；
+显示表字段
+describe 表名;
+倒入数据
+source/sql文件地址
+mysqldump -u　root -p abc > abc.sql
+ 7 （导出数据库abc到abc.sql文件）
+
+47.110.152.112（服务器IP）
+mtms(用户名)
+mtms@2018（密码）
+
+使用Maven打包JavaWeb项目
+http://www.cnblogs.com/hanyinglong/p/5030907.html#_label3
+
+SAAS模式的具体思路
+https://blog.csdn.net/kingofworld/article/details/44757079
+
+项目在本地的地址
+spring.resources.static-locations=file:/C:/Users/Administrator/Desktop/explain/trunk/mtms/front
+
+
+接口文档
+http://47.110.152.112/swagger-ui.html
+
+
+第一次使用maven快速下包时采用命令形势
+mvn -clean package
